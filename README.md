@@ -1,3 +1,3 @@
-# BXHost, an easier way to host your Roblox Server from your Computer
+# BXHost, host your own Roblox Server in your Computer!
 ---
 Not released yet, but it will be soon.
