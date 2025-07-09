@@ -7,3 +7,6 @@
 There’s no automated port-forwarding built in, so you’ll need to handle any network configuration yourself *(use playit.gg, it's simple and easy to use)*, but beyond that you get full privacy, total control, no chat filter, and the freedom to run private playtests, or community tournaments anytime, all without needing to host it on Roblox.
 
 **BXHost** will try to receive as many updates as possible to improve the experience of users on how they use **BXHost**. ***PLEASE REPORT ANY BUGS THAT HAVE BEEN ENCOUNTERED!***
+
+Discord Server: https://discord.gg/UCs9cPcXZw
+Itch.io Page: https://kerbalofficial.itch.io/bxhost
