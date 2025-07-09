@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>False</UseWindowsForms>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PlaceFileSamples\Canyon.rbxl" />
+    <None Remove="PlaceFileSamples\ChaosCanyon.rbxl" />
+    <None Remove="PlaceFileSamples\ClassicCrossroads.rbxl" />
+    <None Remove="PlaceFileSamples\FloodEscape.rbxl" />
+    <None Remove="PlaceFileSamples\KingOfTheHill.rbxl" />
+    <None Remove="PlaceFileSamples\LavaRush.rbxl" />
+    <None Remove="PlaceFileSamples\Mountain.rbxl" />
+    <None Remove="PlaceFileSamples\NaturalDisastersSurvival.rbxl" />
+    <None Remove="PlaceFileSamples\RocketMayhem.rbxl" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Content Include="BXHostSetupLoaderPlugin.rbxmx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\ChaosCanyon.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\ClassicCrossroads.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\FloodEscape.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\KingOfTheHill.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\LavaRush.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\Mountain.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\NaturalDisastersSurvival.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PlaceFileSamples\RocketMayhem.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PlaceFileSamples\2006 - Lava Rush.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PlaceFileSamples\2006 - Mountain.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PlaceFileSamples\2006 - Rocket Mayhem.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PlaceFileSamples\2007 - King of the Hill.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PlaceFileSamples\2008 - canyon.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PlaceFileSamples\2010 - Flood Escape.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PlaceFileSamples\2011 - Chaos Canyon.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PlaceFileSamples\2011 - Natural disasters survival.rbxl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
